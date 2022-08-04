@@ -1,3 +1,4 @@
+--CASE 문은 순서도 중요하다!!
 SELECT CASE 
             WHEN A = B AND B = C THEN "Equilateral"
             WHEN A+B <= C OR A+C <= B OR B+C <= A THEN "Not A Triangle"
